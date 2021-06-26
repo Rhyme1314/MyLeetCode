@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1D44F3A9-684E-42D3-9229-0CA7128EC2A7}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LeetCode</RootNamespace>
+    <AssemblyName>LeetCode</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1.cs" />
+    <Compile Include="10.cs" />
+    <Compile Include="100.cs" />
+    <Compile Include="101.cs" />
+    <Compile Include="102.cs" />
+    <Compile Include="103.cs" />
+    <Compile Include="104.cs" />
+    <Compile Include="105.cs" />
+    <Compile Include="107.cs" />
+    <Compile Include="11.cs" />
+    <Compile Include="1110.cs" />
+    <Compile Include="112.cs" />
+    <Compile Include="113.cs" />
+    <Compile Include="114.cs" />
+    <Compile Include="118.cs" />
+    <Compile Include="120.cs" />
+    <Compile Include="121.cs" />
+    <Compile Include="1217.cs" />
+    <Compile Include="122.cs" />
+    <Compile Include="1239.cs" />
+    <Compile Include="125.cs" />
+    <Compile Include="1277.cs" />
+    <Compile Include="128.cs" />
+    <Compile Include="1329.cs" />
+    <Compile Include="134.cs" />
+    <Compile Include="136.cs" />
+    <Compile Include="139.cs" />
+    <Compile Include="141.cs" />
+    <Compile Include="144.cs" />
+    <Compile Include="145.cs" />
+    <Compile Include="1456.cs" />
+    <Compile Include="146.cs" />
+    <Compile Include="147.cs" />
+    <Compile Include="148.cs" />
+    <Compile Include="1486.cs" />
+    <Compile Include="15.cs" />
+    <Compile Include="152.cs" />
+    <Compile Include="1561.cs" />
+    <Compile Include="160.cs" />
+    <Compile Include="1600.cs" />
+    <Compile Include="162.cs" />
+    <Compile Include="1669.cs" />
+    <Compile Include="17.cs" />
+    <Compile Include="1701.cs" />
+    <Compile Include="173.cs" />
+    <Compile Include="1863.cs" />
+    <Compile Include="189.cs" />
+    <Compile Include="19.cs" />
+    <Compile Include="198.cs" />
+    <Compile Include="2.cs" />
+    <Compile Include="20.cs" />
+    <Compile Include="200.cs" />
+    <Compile Include="202.cs" />
+    <Compile Include="203.cs" />
+    <Compile Include="206.cs" />
+    <Compile Include="208.cs" />
+    <Compile Include="209.cs" />
+    <Compile Include="21.cs" />
+    <Compile Include="213.cs" />
+    <Compile Include="215.cs" />
+    <Compile Include="217.cs" />
+    <Compile Include="22.cs" />
+    <Compile Include="221.cs" />
+    <Compile Include="222.cs" />
+    <Compile Include="23.cs" />
+    <Compile Include="230.cs" />
+    <Compile Include="231.cs" />
+    <Compile Include="234.cs" />
+    <Compile Include="236.cs" />
+    <Compile Include="237.cs" />
+    <Compile Include="238.cs" />
+    <Compile Include="24.cs" />
+    <Compile Include="240.cs" />
+    <Compile Include="257.cs" />
+    <Compile Include="26.cs" />
+    <Compile Include="27.cs" />
+    <Compile Include="279.cs" />
+    <Compile Include="283.cs" />
+    <Compile Include="287.cs" />
+    <Compile Include="3.cs" />
+    <Compile Include="300.cs" />
+    <Compile Include="31.cs" />
+    <Compile Include="316.cs" />
+    <Compile Include="322.cs" />
+    <Compile Include="328.cs" />
+    <Compile Include="337.cs" />
+    <Compile Include="338.cs" />
+    <Compile Include="342.cs" />
+    <Compile Include="349.cs" />
+    <Compile Include="35.cs" />
+    <Compile Include="350.cs" />
+    <Compile Include="371.cs" />
+    <Compile Include="374.cs" />
+    <Compile Include="387.cs" />
+    <Compile Include="389.cs" />
+    <Compile Include="39.cs" />
+    <Compile Include="4.cs" />
+    <Compile Include="401.cs" />
+    <Compile Include="402.cs" />
+    <Compile Include="406.cs" />
+    <Compile Include="409.cs" />
+    <Compile Include="412.cs" />
+    <Compile Include="416.cs" />
+    <Compile Include="42.cs" />
+    <Compile Include="46.cs" />
+    <Compile Include="461.cs" />
+    <Compile Include="474.cs" />
+    <Compile Include="48.cs" />
+    <Compile Include="485.cs" />
+    <Compile Include="486.cs" />
+    <Compile Include="49.cs" />
+    <Compile Include="494.cs" />
+    <Compile Include="496.cs" />
+    <Compile Include="5.cs" />
+    <Compile Include="509.cs" />
+    <Compile Include="51.cs" />
+    <Compile Include="518.cs" />
+    <Compile Include="52.cs" />
+    <Compile Include="530.cs" />
+    <Compile Include="538.cs" />
+    <Compile Include="54.cs" />
+    <Compile Include="543.cs" />
+    <Compile Include="547.cs" />
+    <Compile Include="55.cs" />
+    <Compile Include="56.cs" />
+    <Compile Include="59.cs" />
+    <Compile Include="61.cs" />
+    <Compile Include="617.cs" />
+    <Compile Include="62.cs" />
+    <Compile Include="63.cs" />
+    <Compile Include="64.cs" />
+    <Compile Include="654.cs" />
+    <Compile Include="655.cs" />
+    <Compile Include="66.cs" />
+    <Compile Include="692.cs" />
+    <Compile Include="70.cs" />
+    <Compile Include="704.cs" />
+    <Compile Include="705.cs" />
+    <Compile Include="714.cs" />
+    <Compile Include="720.cs" />
+    <Compile Include="73.cs" />
+    <Compile Include="74.cs" />
+    <Compile Include="75.cs" />
+    <Compile Include="77.cs" />
+    <Compile Include="771.cs" />
+    <Compile Include="78.cs" />
+    <Compile Include="80.cs" />
+    <Compile Include="877.cs" />
+    <Compile Include="88.cs" />
+    <Compile Include="881.cs" />
+    <Compile Include="90.cs" />
+    <Compile Include="919.cs" />
+    <Compile Include="92.cs" />
+    <Compile Include="933.cs" />
+    <Compile Include="938.cs" />
+    <Compile Include="94.cs" />
+    <Compile Include="96.cs" />
+    <Compile Include="98.cs" />
+    <Compile Include="99.cs" />
+    <Compile Include="998.cs" />
+    <Compile Include="deleteLater.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnionFind.cs" />
+    <Compile Include="剑指offer15.cs" />
+    <Compile Include="剑指Offer50.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
