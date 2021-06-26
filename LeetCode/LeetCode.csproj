@@ -80,6 +80,7 @@
     <Compile Include="1486.cs" />
     <Compile Include="15.cs" />
     <Compile Include="152.cs" />
+    <Compile Include="155.cs" />
     <Compile Include="1561.cs" />
     <Compile Include="160.cs" />
     <Compile Include="1600.cs" />
@@ -128,8 +129,10 @@
     <Compile Include="316.cs" />
     <Compile Include="322.cs" />
     <Compile Include="328.cs" />
+    <Compile Include="33.cs" />
     <Compile Include="337.cs" />
     <Compile Include="338.cs" />
+    <Compile Include="34.cs" />
     <Compile Include="342.cs" />
     <Compile Include="349.cs" />
     <Compile Include="35.cs" />
@@ -188,6 +191,7 @@
     <Compile Include="75.cs" />
     <Compile Include="77.cs" />
     <Compile Include="771.cs" />
+    <Compile Include="773.cs" />
     <Compile Include="78.cs" />
     <Compile Include="80.cs" />
     <Compile Include="877.cs" />

@@ -10,8 +10,9 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            _316 test = new _316();
-            test.RemoveDuplicateLetters("bcabc");
+            _773 test = new _773();
+            int[][] board = { new int[] { 1, 2, 3 }, new int[] { 4, 0, 5 } };
+            test.SlidingPuzzle(board);
             Console.WriteLine();
             
         }
