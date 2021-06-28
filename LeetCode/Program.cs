@@ -10,9 +10,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            _773 test = new _773();
-            int[][] board = { new int[] { 1, 2, 3 }, new int[] { 4, 0, 5 } };
-            test.SlidingPuzzle(board);
+            _752 test = new _752();
+            test.OpenLock(new string[] { "0201", "0101", "0102", "1212", "2002" }, "0202");
             Console.WriteLine();
             
         }

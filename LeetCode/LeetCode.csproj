@@ -53,6 +53,7 @@
     <Compile Include="105.cs" />
     <Compile Include="107.cs" />
     <Compile Include="11.cs" />
+    <Compile Include="110.cs" />
     <Compile Include="1110.cs" />
     <Compile Include="112.cs" />
     <Compile Include="113.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="122.cs" />
     <Compile Include="1239.cs" />
     <Compile Include="125.cs" />
+    <Compile Include="127.cs" />
     <Compile Include="1277.cs" />
     <Compile Include="128.cs" />
     <Compile Include="1329.cs" />
@@ -191,10 +193,12 @@
     <Compile Include="739.cs" />
     <Compile Include="74.cs" />
     <Compile Include="75.cs" />
+    <Compile Include="752.cs" />
     <Compile Include="77.cs" />
     <Compile Include="771.cs" />
     <Compile Include="773.cs" />
     <Compile Include="78.cs" />
+    <Compile Include="79.cs" />
     <Compile Include="80.cs" />
     <Compile Include="877.cs" />
     <Compile Include="88.cs" />
