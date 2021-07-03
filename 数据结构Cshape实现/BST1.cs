@@ -243,7 +243,7 @@ namespace 数据结构Cshape实现
         {
             if (node==null)
                 return null;
-            if (node.data.CompareTo(data) > 0)
+            if (node.data.CompareTo(data) > 0)  
             {
                 node.left = Remove(node.left, data);
                 return node;

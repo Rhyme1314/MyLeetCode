@@ -59,6 +59,7 @@
     <Compile Include="113.cs" />
     <Compile Include="114.cs" />
     <Compile Include="118.cs" />
+    <Compile Include="12.cs" />
     <Compile Include="120.cs" />
     <Compile Include="121.cs" />
     <Compile Include="1217.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="127.cs" />
     <Compile Include="1277.cs" />
     <Compile Include="128.cs" />
+    <Compile Include="13.cs" />
     <Compile Include="1329.cs" />
     <Compile Include="134.cs" />
     <Compile Include="136.cs" />
@@ -92,6 +94,8 @@
     <Compile Include="17.cs" />
     <Compile Include="1701.cs" />
     <Compile Include="173.cs" />
+    <Compile Include="1828.cs" />
+    <Compile Include="1833.cs" />
     <Compile Include="1863.cs" />
     <Compile Include="189.cs" />
     <Compile Include="19.cs" />
@@ -114,6 +118,7 @@
     <Compile Include="23.cs" />
     <Compile Include="230.cs" />
     <Compile Include="231.cs" />
+    <Compile Include="232.cs" />
     <Compile Include="234.cs" />
     <Compile Include="236.cs" />
     <Compile Include="237.cs" />
@@ -123,6 +128,7 @@
     <Compile Include="257.cs" />
     <Compile Include="26.cs" />
     <Compile Include="27.cs" />
+    <Compile Include="278.cs" />
     <Compile Include="279.cs" />
     <Compile Include="283.cs" />
     <Compile Include="287.cs" />
@@ -155,8 +161,12 @@
     <Compile Include="412.cs" />
     <Compile Include="416.cs" />
     <Compile Include="42.cs" />
+    <Compile Include="448.cs" />
+    <Compile Include="450.cs" />
+    <Compile Include="451.cs" />
     <Compile Include="46.cs" />
     <Compile Include="461.cs" />
+    <Compile Include="47.cs" />
     <Compile Include="474.cs" />
     <Compile Include="48.cs" />
     <Compile Include="485.cs" />
@@ -219,6 +229,7 @@
     <Compile Include="99.cs" />
     <Compile Include="998.cs" />
     <Compile Include="deleteLater.cs" />
+    <Compile Include="LCP 07.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnionFind.cs" />

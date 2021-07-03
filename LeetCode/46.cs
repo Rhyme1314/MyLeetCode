@@ -13,7 +13,6 @@ namespace LeetCode
         {
             IList<IList<int>> res = new List<IList<int>>();
             IList<int> empty = new List<int>();
-            //List<int> rest = new List<int>(nums);\
             Queue<int> rest = new Queue<int>();
             for (int i = 0; i < nums.Length; i++)
             {
