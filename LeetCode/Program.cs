@@ -10,11 +10,8 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            _40 test = new _40();
-            //test.OpenLock(new string[] { "0201", "0101", "0102", "1212", "2002" }, "0202");
-            int[] arr = { 10, 1, 2, 7, 6, 1, 5 };
-            test.CombinationSum2(arr, 8);
-            Console.WriteLine();
+            _1711 test = new _1711();
+            test.CountPairs(new int[] {1,1,1,3,3,3,7 });
             
         }
     }
